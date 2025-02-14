@@ -22,10 +22,9 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "I don't like you, I love you! ❤️"                                                // Text for "No" button
-       
+            text: "How much do you love me?",                          // For the love meter
+            startText: "This much!",                                   // Text before the percentage
+            nextBtn: "Next ❤️"                                         // Text for the next button
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
